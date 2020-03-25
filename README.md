@@ -9,18 +9,5 @@ The original dataset can be downloaded at https://wiki.cancerimagingarchive.net/
 
 The curated dataset used in our experiments can be downloaded from: 
 
-#### Linear Models
-
--> can be run from ```linear_cox.ipynb```
-
-#### Neural Net Models
-
--> supporting files [net.py, utils.py etc..]
--> train.py [the file called to train models]
--> run.py - run as needed - important
--> clean_results.ipynb -> run to pick the best hyperparameters for each model
--> test.py - run to test models
-
-#### TD-AUCs
-have a different notebook for this:
-- generate_tdaucs.ipynb
+#### Code
+Accompanying code will be posted here during the ISBI conference. Stay tuned!
