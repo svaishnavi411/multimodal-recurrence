@@ -16,4 +16,8 @@ The curated dataset used in our experiments can be downloaded from [here](https:
 - ``recurrence_splits``: The folder contain all the 5 splits we used in our experiments. Each split file contains the data in rows where each row corresponds to patient_ID | num_of_days | recurrence_bool. The patient_ID is the same as that provided in the original dataset. The value recurrence_bool is 1 if the patient's cancer recurred within the study period, and 0 otherwise. The num_of_days refers to the number of days between the CT image and the recurrence, if the corresponding recurrence_bool is 1. The num_of_days refers to the number of days between the CT image and the day the patient was last tracked in the study. 
 
 #### Code
-Accompanying code will be posted here in Summer 2020. Stay tuned!
+
+##### Linear Models
+-> can be run from ````linear_cox.ipynb````
+
+Other code will be posted here soon. Stay tuned!
